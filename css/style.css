@@ -1,0 +1,29 @@
+.todo-item {
+    padding: 10px;
+    border: 2px solid #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+.todo-item.done {
+    border: 2px solid #5cb85c;
+    border-radius: 4px;
+}
+
+.modify-input {
+    margin: 10px 0;
+    max-width: 50%
+}
+
+.todo-item-modify-wrapper {
+    width:100%;
+    display: inline-block;
+}
+
+.form-control {
+    margin: 10px 0;
+}
+
+.btn {
+    margin: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TO DO List</title>
+</head>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<script>
+    $(document).ready(function(){
+        new $.MyTodo('#new-todo-input', '#add-new-todo', '#todo-list');
+    });
+</script>
+<body>
+<div class="container">
+    <h1># JavaScript course 2017 Q2</h1>
+    <h2>##### Home work 2 - TO DO List</h2>
+    <div id="todo">
+        <div id="new-todo">
+            <div class="row">
+                <div class="col-md-9">
+                    <input type="text" class="form-control" id="new-todo-input" placeholder="Add new TO DO"/>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary" id="add-new-todo">Add</button>
+                </div>
+            </div>
+
+        </div>
+        <h3 class="text-center">
+            My TODO list
+        </h3>
+        <div id="todo-list">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
